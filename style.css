@@ -1,0 +1,51 @@
+.box-img{
+    height: 200px;
+    border-radius: 50%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    text-align: center;   
+}
+.box{
+    background: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    padding:40px;
+    margin: auto;
+    margin-top: 10%;
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+}
+.box h1{
+    font-weight: 100;
+    letter-spacing: 0.09em;
+}
+.box h5{
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    font-size: 1.1em;
+}
+.box p{
+    text-align: justify;
+    letter-spacing: 0.1em;
+}
+ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  
